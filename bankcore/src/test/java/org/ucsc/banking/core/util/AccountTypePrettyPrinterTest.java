@@ -2,7 +2,7 @@ package org.ucsc.banking.core.util;
 
 import org.ucsc.banking.core.impl.NormalSavings;
 import org.ucsc.banking.core.impl.SalarySaver;
-import org.ucsc.banking.core.impl.KidSavings;
+//import org.ucsc.banking.core.impl.KidSavings;
 
 import junit.framework.*;
 
@@ -12,7 +12,7 @@ public class AccountTypePrettyPrinterTest extends TestCase {
 	public void testPrintAccountType() {
 		AccountTypePrettyPrinter.printAccountType(NormalSavings.getInstance());
 		AccountTypePrettyPrinter.printAccountType(SalarySaver.getInstance());
-		AccountTypePrettyPrinter.printAccountType(KidSavings.getInstance());
+	//	AccountTypePrettyPrinter.printAccountType(KidSavings.getInstance());
 	}
 
 }
